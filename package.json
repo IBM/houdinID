@@ -1,0 +1,36 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.6",
+    "expo": "~37.0.3",
+    "react": "^16.9.0",
+    "react-csv-reader": "^3.1.0",
+    "react-dom": "^16.13.1",
+    "react-native": "^0.61.4",
+    "react-native-document-picker": "^3.5.3",
+    "react-native-gesture-handler": "~1.6.0",
+    "react-native-popup-dialog": "^0.18.3",
+    "react-native-reanimated": "~1.7.0",
+    "react-native-safe-area-context": "0.7.3",
+    "react-native-screens": "~2.2.0",
+    "react-native-star-rating": "^1.1.0",
+    "react-native-unordered-list": "^1.0.4",
+    "react-native-upload-file": "^0.1.1",
+    "react-native-uploader": "0.0.10",
+    "react-native-web": "~0.11.7",
+    "react-navigation": "^4.3.9",
+    "react-navigation-stack": "^2.5.1"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "~8.1.0",
+    "@babel/core": "^7.8.6"
+  },
+  "private": true
+}
