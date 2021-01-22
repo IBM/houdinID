@@ -1,7 +1,0 @@
-{
-  "compilerOptions": {
-    "baseUrl": "./__tests__/typescript" ,
-    "types": ["./","./node_modules"]
-  },
-  "include": ["./"]
-}
