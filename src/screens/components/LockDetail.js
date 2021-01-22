@@ -20,7 +20,7 @@ export default class LockDetailComponent extends React.Component {
             //console.log("[from LockDetail]: " + JSON.stringify(lockArray));
 
         let vulns=[]
-        for(i in lockArray.vulnerableTo) {
+        for(var i in lockArray.vulnerableTo) {
             console.log("[LockDetail] vulnList: " + i)
             vulns.push(<Unorderedlist><Text>{lockArray.vulnerableTo[i]}</Text></Unorderedlist>);
         }

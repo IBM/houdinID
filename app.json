@@ -23,6 +23,13 @@
     ],
     "ios": {
       "supportsTablet": true
+    },
+    "web": {
+      "build": {
+        "babel": {
+          "include": ["static-container"]
+        }
+      }
     }
   }
 }
